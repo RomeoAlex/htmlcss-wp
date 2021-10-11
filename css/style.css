@@ -153,4 +153,11 @@ font-size: 14px;
 /* Contenitore nel footer */
 .footer{
     margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.cuore{
+    color: red;
+    font-size: 40px;
+    /* line-height: 40px; */
 }
