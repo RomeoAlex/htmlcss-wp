@@ -4,27 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Montserrat;
+}
+/* imposto larghezza delle immagini */
+img{
+    width: 100%;
+}
 /* Contenitore della pagina */
 .contpri{
     margin: auto;
     /* questa sarà la larghezza standard di tutti gli elementi nella pagina inutile ribadirlo come attributo negli altri selettori*/
-    width: 80%;
-    padding: 20px 0;
+    width: 50%;
+
 }
 /* contentitore per titolo */
 .titolo{
+    display: inline-block;
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
     margin-bottom: 20px;
-
-    /* test */
-    height: 120px;
-    background-color: darkorchid;
+}
+/* attributi immagine titolo */
+.titolo img{
+    width: auto;
+    height: 70px;
 }
 /* contenitore sotto al titolo */
 .sottoti{
     margin-bottom: 20px;
-    /* test */
-    height: 360px;
-    background-color: limegreen;
+}
+/* MENU */
+.menu ul{
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
 }
 /* contenitore principale */
 .box{
