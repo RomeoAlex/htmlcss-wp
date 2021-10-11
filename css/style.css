@@ -12,26 +12,26 @@ img{
     width: 100%;
 }
 /* Contenitore della pagina */
-.contpri{
+.container{
     margin: auto;
     /* questa sarà la larghezza standard di tutti gli elementi nella pagina inutile ribadirlo come attributo negli altri selettori*/
-    width: 50%;
+    width: 80%;
 
 }
 /* contentitore per titolo */
-.titolo{
+.header{
     display: inline-block;
     border-right: 1px solid lightgray;
     padding-right: 20px;
     margin-bottom: 20px;
 }
 /* attributi immagine titolo */
-.titolo img{
+.header img{
     width: auto;
     height: 70px;
 }
 /* contenitore sotto al titolo */
-.sottoti{
+.sub-header{
     margin-bottom: 20px;
 }
 /* MENU */
@@ -47,6 +47,31 @@ img{
     font-size: 12px;
     color: gray;
 }
+/* banner metodo con background */
+.banner{
+    position: relative;
+    height:600px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.testo-banner{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    color: white;
+    
+}
+.title{
+    margin-bottom: 20px;
+}
+.title p{
+font-size: 14px;
+}
 /* contenitore principale */
 .box{
     background-color: slateblue;
@@ -61,6 +86,7 @@ img{
 }
 /* inzio del box colonne */
 .boxcolonne{
+    width: 100%;
 }
 /* regola per il contenitore delle colonne */
 .clearfix:after{
